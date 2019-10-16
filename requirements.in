@@ -1,3 +1,6 @@
 gunicorn>=19.9.0
 flask
 flask-script
+requests
+marshmallow
+webargs
