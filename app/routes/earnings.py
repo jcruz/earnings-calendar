@@ -6,7 +6,7 @@ from webargs.flaskparser import use_kwargs
 
 from app.services import optionslam
 
-blueprint = Blueprint('api', __name__)
+blueprint = Blueprint('earnings', __name__)
 
 
 @blueprint.route('/api/earnings/<stock_symbol>', methods=['GET'])

@@ -5,10 +5,10 @@ from flask import jsonify
 from flask import Response
 from werkzeug.exceptions import UnprocessableEntity
 
-from app.routes import api
+from app.routes import earnings
 
 app = Flask(__name__)
-app.register_blueprint(api.blueprint)
+app.register_blueprint(earnings.blueprint)
 
 
 @app.errorhandler(UnprocessableEntity)
